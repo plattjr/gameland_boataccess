@@ -1,15 +1,15 @@
 ## NCWRC Game Land and Boat Access
 
-***About The Map***
+***About The Map***\
 For this map I am looking at the number of public boating access points owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation.
 
-***Functions***
+***Functions***\
 I have added a click event on the boat access points to get the address from each location.  I would love to find a way to add a "Get Directions" button that is linked to Google Maps.
 
-***Data Sources***
+***Data Sources***\
 Both the boat access points and gameland designations are courtesy of NCWRC and the shapefiles are available to download at NC One Map.
 
 The basemap is from Stamen Designs and is available at http://leaflet-extras.github.io/leaflet-providers/preview/
 
-***About The Map***
+***About The Map***\
 I will for sure be coming back to this map to try and get my choropleth feature to work properly.
