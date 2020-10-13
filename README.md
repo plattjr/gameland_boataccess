@@ -1,4 +1,4 @@
-## NCWRC Game Land and Boat Access
+## NC Wildlife Resource Commission Game Land and Boat Access Map
 
 ***About The Map***\
 For this map I am looking at the number of public boating access points owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation.
@@ -9,7 +9,7 @@ I have added a click event on the boat access points to get the address from eac
 ***Libraries***
 * leaflet-ajax for GeoJSON
 * chroma.js for colors
-* Google font library for the us of *Oswald*
+* Google font library for the use of *Oswald*
 * leaflet for basemap
 * jquery javascript
 
