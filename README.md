@@ -2,7 +2,7 @@
 <BR>
   
 ***About The Map***\
-This map shows public boating access points owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation, if any.
+This map shows three different types of public boating access points (Coastal, Inland, and Joint) owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation, if any.  Focus is on the tidewater region since access types can vary along the sounds and coastal islands.
 
 ***Functions***\
 I have added a click event on the boat access points to get the address from each location.  I would love to find a way to add a "Get Directions" button that is linked to Google Maps.
@@ -10,9 +10,10 @@ I have added a click event on the boat access points to get the address from eac
 ***Libraries***
 * leaflet-ajax for GeoJSON
 * chroma.js for colors
-* Google font library for the use of *Oswald*
+* Google fonts for the use of *Oswald*
 * leaflet for basemap
 * jquery javascript
+* Font Awesome for *ship* icon
 
 ***Data Sources***\
 Both the boat access points and gameland designations are courtesy of NCWRC and the shapefiles are available to download at NC One Map.
