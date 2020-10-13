@@ -2,7 +2,7 @@
 <BR>
   
 ***About The Map***\
-For this map I am looking at the number of public boating access points owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation, if any.
+This map shows the number of public boating access points owned by the North Carolina Wildlife Resource Commission (NCWRC) and how many are on each gameland designation, if any.
 
 ***Functions***\
 I have added a click event on the boat access points to get the address from each location.  I would love to find a way to add a "Get Directions" button that is linked to Google Maps.
