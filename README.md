@@ -12,4 +12,6 @@ Both the boat access points and gameland designations are courtesy of NCWRC and 
 The basemap is from Stamen Designs and is available at http://leaflet-extras.github.io/leaflet-providers/preview/
 
 ***About The Map***\
-I will for sure be coming back to this map to try and get my choropleth feature to work properly.
+I was initially trying to make make multiple classes within each Gameland Designation.  For instance, the Game Land designation would be multiple shades of green corresponding to the number of boating areas within each boundary.  
+
+I will for sure be coming back to this map to try and get my multiple class choropleth feature to work properly.
