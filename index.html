@@ -55,7 +55,7 @@
 <script>
     // 1. Create a map object.
     var mymap = L.map('map', {
-      center: [35.030338,-76.994487], //note that we've centered the map to downtown AVL
+      center: [35.030338,-76.994487],
       zoom: 10, //this line adjusts the starting zoom level of the map
       maxZoom: 18,//this line sets the maximum zoom level
       minZoom: 8,//this line sets the minimum zoom level
@@ -70,8 +70,8 @@ var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/to
 	ext: 'png'
 }).addTo(mymap);
 
-// 3. Add Airbnb GeoJSON Data
-// Null variable that will hold Airbnb data
+// 3. Add GeoJSON Data
+// Null variable that will hold boating data
 var boating = null;
 
 // 4. build up a set of colors from colorbrewer's
@@ -101,7 +101,7 @@ boating = L.geoJson.ajax("assets/boating.geojson",{
       var id = 0;
       if (feature.properties.WATER_TYPE == "INLAND") { id = 0; }
       else if (feature.properties.WATER_TYPE == "COASTAL")  { id = 1; }
-      else { id = 2;} // All other property types from attribute table
+      else { id = 2;} // Joint types
       return L.marker(latlng, {icon: L.divIcon({className: 'fas fa-ship marker-color-' + (id + 1).toString() })});
   },
     attribution: 'Boat Access Points &copy; NC Wildlife | Gameland Shapefile &copy; NC Wildlife | Base Map &copy; Stamen Design | Map: Josh Platt'
@@ -127,7 +127,7 @@ function setColor(density) {
     return colors[id];
 }
 
-// 7. Set style function that sets fill color property equal to total Airbnbs
+// 7. Set style function that sets fill color property
 function style(feature) {
     return {
         fillColor: setColor(feature.properties.GML_TYPE),
